@@ -7,7 +7,7 @@ public class Selection_sort {
 		int[] list = {10,84,97,58,17,28,51,64,24,3};
 		int min,tmp = 0;
 
-		System.out.println("befor:" + Arrays.toString(list));
+		System.out.println("before:" + Arrays.toString(list));
 
 		for(int i = 0; i < list.length - 1;i++) {
 			min = i;
